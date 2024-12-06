@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    overflow: hidden;
+}
+.custom:hover .onhov{
+ text-decoration: underline;
+}
+
+button #my-tooltip {
+    background: black;
+    width: 100%;
+    max-width: 130px;
+    height: 100%;
+    max-height: 22px;
+    font-size: 12px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}
